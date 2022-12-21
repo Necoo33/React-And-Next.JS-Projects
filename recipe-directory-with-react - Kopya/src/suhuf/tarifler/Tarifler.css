@@ -1,0 +1,34 @@
+.tarifler-tum-bilgiler{
+    margin: 10px 10vw;
+}
+
+.tarifler-tum-bilgiler h2{
+    text-align: center;
+    color: navy;
+}
+
+
+.tarifler-tum-bilgiler h3, p{
+    text-align: justify;
+    margin: 10px 0;
+    color: navy;
+}
+
+.tarifler-tum-bilgiler .tus-flex-serlevhasi{
+    display: flex;
+    place-content: center;
+}
+
+.tarifler-tum-bilgiler .tus-flex-serlevhasi .tecdid-et-tusu{
+    color: white;
+    padding: 1em 1.5em;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    border: none;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+.tarifler-tum-bilgiler .tus-flex-serlevhasi .tecdid-et-tusu:hover{
+    scale: 1.1;
+}

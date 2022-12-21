@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.flex-serlevhasi{
+    display: flex;
+    place-content: space-evenly;
+    align-items: center;
+    padding: 3vh 0;
+    background-color: navy;
+}
+
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.aramak-kismi form{
+    display: flex;
+    place-content: center;
+    align-items: center;
+}
+
+.aramak-kismi form label{
+    color: white;
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
+
+.aramak-kismi form input{
+    display: inline-block;
+}
+
+.aramak-kismi form input:first-of-type{
+    font-size: 1.2rem;
+    color: navy;
+    width: 180px;
+    height: 45px;
+}
+
+.aramak-kismi form input:last-of-type{
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #010154;
+    border-radius: 5px;
+    translate: 5px;
+    width: 50px;
+    height: 45px;
+}
+
+.aramak-kismi form input:last-of-type:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.tarif-ekle-tusu button{
+    padding: 1em;
+    background-color: #010154;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 50px;
+}
+
+.tarif-ekle-tusu button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.tarif-ekle-tusu button a{
+    color: white;
+    text-decoration: none;
+}

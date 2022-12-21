@@ -1,0 +1,17 @@
+.tek-yemek-tarifi{
+    margin: 15vh 10vw;
+}
+
+.tek-yemek-tarifi h2{
+    text-align: center;
+}
+
+.tek-yemek-tarifi h3{
+    color: black;
+    text-align: center;
+    line-height: 2em;
+}
+
+.tek-yemek-tarifi p{
+    text-align: justify;
+}

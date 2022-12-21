@@ -1,0 +1,71 @@
+.anasayfa-ust-serlevhasi{
+    margin: 5px 10vw;
+}
+
+.anasayfa-ust-serlevhasi .serlevha{
+    color: navy;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0.5em;
+}
+
+.anasayfa-ust-serlevhasi .alt-serlevha{
+    color: navy;
+    text-align: center;
+    margin: 10px 0;
+    padding: 0.5em;
+}
+
+.grid-serlevhasi{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 3em;
+}
+
+.yemek-tarifi-kutusu{
+    border: 3px solid navy;
+    background-color: navy;
+    border-radius: 10px;
+    line-height: 1.75em;
+    padding: 1em;
+    transition: 0.3s;
+    min-height: 200px;
+}
+
+.yemek-tarifi-kutusu-ust-kisim{
+    display: flex;
+    place-content: space-between;
+    align-items: center;
+}
+
+.yemek-tarifi-kutusu-ust-kisim img{
+    max-width: 32px;
+    max-height: 32px;
+    cursor: pointer;
+}
+
+.yemek-tarifi-kutusu:hover{
+    rotate: 6deg;
+}
+
+.yemek-tarifi-kutusu h2, h3, a{
+    color: white;
+    font-family: "Poppins";
+}
+
+.yemek-tarifi-kutusu h2{
+    text-align: center;
+}
+
+.yemek-tarifi-kutusu h3:first-of-type{
+    text-align: justify;
+    margin: 10px 0;
+}
+
+.yemek-tarifi-kutusu a{
+    text-decoration: none;
+}
+
+.yemek-tarifi-kutusu a:hover{
+    text-decoration: underline;
+}

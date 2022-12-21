@@ -1,0 +1,7 @@
+.tarif-bulunamadi-yazisi{
+    position: relative;
+    grid-column: 1 / span 3;
+    display: flex;
+    place-content: center;
+    align-items: center;
+}

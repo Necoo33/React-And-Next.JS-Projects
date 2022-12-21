@@ -1,0 +1,13 @@
+.tema-secici{
+    display: flex;
+    justify-content: right;
+}
+
+.tema-tuslari input{
+    appearance: none;
+    width: 2em;
+    height: 2em;
+    border-radius: 100%;
+    background-color: white;
+    display: inline-block;
+}

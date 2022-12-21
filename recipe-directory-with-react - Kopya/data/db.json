@@ -1,0 +1,116 @@
+{
+  "yemekTarifleri": [
+    {
+      "id": "1",
+      "tarifIsmi": "Mantı",
+      "malzemeler": [
+        "250 gram mantı",
+        "100 ml yoğurt",
+        "1/3 çay bardağı zeytinyağı",
+        "bir çay kaşığı pul biber"
+      ],
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend finibus orci nec pellentesque. Suspendisse vestibulum erat a faucibus ultricies. Duis mollis porta velit in feugiat. In hac habitasse platea dictumst. Nam nec nisi neque. Pellentesque eu nunc euismod, pulvinar leo id, bibendum ex. Praesent at massa pulvinar, maximus erat quis, porttitor ligula. Nullam commodo ac augue at varius. Proin eu lorem fermentum velit pellentesque ultrices vitae ut tortor. Donec malesuada ex augue, nec commodo sapien suscipit non. Sed lacinia sollicitudin nunc, vitae luctus diam cursus sit amet. Maecenas quis interdum mauris. Fusce in arcu non libero dignissim consequat. Curabitur et mauris tincidunt, varius ante sit amet, accumsan elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras enim purus, suscipit non metus ac, elementum cursus diam. Vestibulum tincidunt, diam vitae mollis rhoncus, ipsum justo varius sem, sit amet aliquet nisl nulla et ante. Maecenas suscipit tortor mi, a luctus ipsum feugiat eu. Maecenas vitae leo eros. Praesent urna lacus, efficitur at elit vitae, pretium ornare velit. Fusce in leo dui. Pellentesque finibus ultrices augue, sit amet ornare mauris finibus vitae. Pellentesque bibendum nisl a nisl dapibus congue. Nunc id tempor enim. Integer eget pulvinar nisi. Proin sollicitudin vestibulum felis, in imperdiet sem ultricies et. Donec id augue ex.",
+      "hazirlanisMuddeti": "20 dakika"
+    },
+    {
+      "id": "2",
+      "tarifIsmi": "Tavuklu Bulgur",
+      "malzemeler": [
+        "200 gram tavuk sote",
+        "5 su bardağı bulgur",
+        "10 su bardağı su",
+        "2 yemek kaşığı tuz",
+        "1 tatlı kaşığı kara biber",
+        "biraz zeytinyağı"
+      ],
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend finibus orci nec pellentesque. Suspendisse vestibulum erat a faucibus ultricies. Duis mollis porta velit in feugiat. In hac habitasse platea dictumst. Nam nec nisi neque. Pellentesque eu nunc euismod, pulvinar leo id, bibendum ex. Praesent at massa pulvinar, maximus erat quis, porttitor ligula. Nullam commodo ac augue at varius. Proin eu lorem fermentum velit pellentesque ultrices vitae ut tortor. Donec malesuada ex augue, nec commodo sapien suscipit non. Sed lacinia sollicitudin nunc, vitae luctus diam cursus sit amet. Maecenas quis interdum mauris. Fusce in arcu non libero dignissim consequat. Curabitur et mauris tincidunt, varius ante sit amet, accumsan elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras enim purus, suscipit non metus ac, elementum cursus diam. Vestibulum tincidunt, diam vitae mollis rhoncus, ipsum justo varius sem, sit amet aliquet nisl nulla et ante. Maecenas suscipit tortor mi, a luctus ipsum feugiat eu. Maecenas vitae leo eros. Praesent urna lacus, efficitur at elit vitae, pretium ornare velit. Fusce in leo dui. Pellentesque finibus ultrices augue, sit amet ornare mauris finibus vitae. Pellentesque bibendum nisl a nisl dapibus congue. Nunc id tempor enim. Integer eget pulvinar nisi. Proin sollicitudin vestibulum felis, in imperdiet sem ultricies et. Donec id augue ex.",
+      "hazirlanisMuddeti": "1 saat"
+    },
+    {
+      "id": "3",
+      "tarifIsmi": "Kısır",
+      "malzemeler": [
+        "2 domates",
+        "1 yeşil soğan",
+        "1 paket köftelik bulgur",
+        "3 limon",
+        "1 maydanoz",
+        "1 yemek kaşığı zeytinyağı"
+      ],
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eleifend finibus orci nec pellentesque. Suspendisse vestibulum erat a faucibus ultricies. Duis mollis porta velit in feugiat. In hac habitasse platea dictumst. Nam nec nisi neque. Pellentesque eu nunc euismod, pulvinar leo id, bibendum ex. Praesent at massa pulvinar, maximus erat quis, porttitor ligula. Nullam commodo ac augue at varius. Proin eu lorem fermentum velit pellentesque ultrices vitae ut tortor. Donec malesuada ex augue, nec commodo sapien suscipit non. Sed lacinia sollicitudin nunc, vitae luctus diam cursus sit amet. Maecenas quis interdum mauris. Fusce in arcu non libero dignissim consequat. Curabitur et mauris tincidunt, varius ante sit amet, accumsan elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras enim purus, suscipit non metus ac, elementum cursus diam. Vestibulum tincidunt, diam vitae mollis rhoncus, ipsum justo varius sem, sit amet aliquet nisl nulla et ante. Maecenas suscipit tortor mi, a luctus ipsum feugiat eu. Maecenas vitae leo eros. Praesent urna lacus, efficitur at elit vitae, pretium ornare velit. Fusce in leo dui. Pellentesque finibus ultrices augue, sit amet ornare mauris finibus vitae. Pellentesque bibendum nisl a nisl dapibus congue. Nunc id tempor enim. Integer eget pulvinar nisi. Proin sollicitudin vestibulum felis, in imperdiet sem ultricies et. Donec id augue ex.",
+      "hazirlanisMuddeti": "15 dakika"
+    },
+    {
+      "tarifIsmi": "yeni yemek iki",
+      "malzemeler": [
+        "1 domates",
+        "1 maydanoz",
+        "1 paket mercimek",
+        "1 paket bamya",
+        "1 paket kuru fasulye"
+      ],
+      "hazirlanisMuddeti": "45",
+      "yapilisi": "dgsgdfsdgdsgdfsdfsfdsfdsdfasdasdasdasdasdasdasd",
+      "id": "2743.2811505577524"
+    },
+    {
+      "tarifIsmi": "Sıkma",
+      "malzemeler": [
+        "un",
+        "250 gram peynir",
+        "ıspanak",
+        "tereyağı"
+      ],
+      "hazirlanisMuddeti": "30",
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium elit sem, a mattis sapien imperdiet eu. Donec blandit ex sit amet commodo vulputate. Fusce vitae dictum leo. Etiam nec urna metus. Nam dapibus ligula eget erat pretium lacinia. Cras et mattis arcu, in suscipit ligula. Phasellus luctus at ipsum fringilla faucibus. Vivamus porta volutpat diam, et ornare elit efficitur quis. Nullam porttitor viverra sollicitudin. Phasellus cursus, odio eget venenatis elementum, ante orci sagittis justo, ut venenatis tortor diam ac diam. Pellentesque sit amet fringilla metus. Sed eleifend congue felis vitae lacinia. Cras blandit est et mi malesuada varius et ut sem. Praesent quis sollicitudin ipsum. Suspendisse volutpat sollicitudin arcu, vitae dictum quam luctus a. Cras in viverra tellus, vel elementum nibh.\n\nMorbi commodo at augue a interdum. Integer dignissim neque vel commodo efficitur. Donec condimentum dui nec ipsum malesuada luctus. Pellentesque ullamcorper mollis justo at faucibus. Fusce nec tellus id magna convallis interdum. Duis commodo libero est, id consequat urna tincidunt et. Donec feugiat turpis in nibh scelerisque, a elementum nisi tempus.",
+      "id": "33328.644994074995"
+    },
+    {
+      "tarifIsmi": "diğer yemek",
+      "malzemeler": [
+        "sdasd",
+        "sdasd",
+        "sdfsdf"
+      ],
+      "hazirlanisMuddeti": "30",
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium elit sem, a mattis sapien imperdiet eu. Donec blandit ex sit amet commodo vulputate. Fusce vitae dictum leo. Etiam nec urna metus. Nam dapibus ligula eget erat pretium lacinia. Cras et mattis arcu, in suscipit ligula. Phasellus luctus at ipsum fringilla faucibus. Vivamus porta volutpat diam, et ornare elit efficitur quis. Nullam porttitor viverra sollicitudin. Phasellus cursus, odio eget venenatis elementum, ante orci sagittis justo, ut venenatis tortor diam ac diam. Pellentesque sit amet fringilla metus. Sed eleifend congue felis vitae lacinia. Cras blandit est et mi malesuada varius et ut sem. Praesent quis sollicitudin ipsum. Suspendisse volutpat sollicitudin arcu, vitae dictum quam luctus a. Cras in viverra tellus, vel elementum nibh.\n\nMorbi commodo at augue a interdum. Integer dignissim neque vel commodo efficitur. Donec condimentum dui nec ipsum malesuada luctus. Pellentesque ullamcorper mollis justo at faucibus. Fusce nec tellus id magna convallis interdum. Duis commodo libero est, id consequat urna tincidunt et. Donec feugiat turpis in nibh scelerisque, a elementum nisi tempus.",
+      "id": "65662.34376618682"
+    },
+    {
+      "tarifIsmi": "bir diğer yemek",
+      "malzemeler": [
+        "fdggf",
+        "asasd",
+        "gfgf",
+        "sdasdasdasd"
+      ],
+      "hazirlanisMuddeti": "60 dakika",
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium elit sem, a mattis sapien imperdiet eu. Donec blandit ex sit amet commodo vulputate. Fusce vitae dictum leo. Etiam nec urna metus. Nam dapibus ligula eget erat pretium lacinia. Cras et mattis arcu, in suscipit ligula. Phasellus luctus at ipsum fringilla faucibus. Vivamus porta volutpat diam, et ornare elit efficitur quis. Nullam porttitor viverra sollicitudin. Phasellus cursus, odio eget venenatis elementum, ante orci sagittis justo, ut venenatis tortor diam ac diam. Pellentesque sit amet fringilla metus. Sed eleifend congue felis vitae lacinia. Cras blandit est et mi malesuada varius et ut sem. Praesent quis sollicitudin ipsum. Suspendisse volutpat sollicitudin arcu, vitae dictum quam luctus a. Cras in viverra tellus, vel elementum nibh.\n\nMorbi commodo at augue a interdum. Integer dignissim neque vel commodo efficitur. Donec condimentum dui nec ipsum malesuada luctus. Pellentesque ullamcorper mollis justo at faucibus. Fusce nec tellus id magna convallis interdum. Duis commodo libero est, id consequat urna tincidunt et. Donec feugiat turpis in nibh scelerisque, a elementum nisi tempus.",
+      "id": "79829.7126408865"
+    },
+    {
+      "tarifIsmi": "sonuncu bir diğer yemek",
+      "malzemeler": [
+        "asdasd",
+        "sdfsfdsfd",
+        "gfgfgf",
+        "ghffhhg"
+      ],
+      "hazirlanisMuddeti": "35 dakika",
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium elit sem, a mattis sapien imperdiet eu. Donec blandit ex sit amet commodo vulputate. Fusce vitae dictum leo. Etiam nec urna metus. Nam dapibus ligula eget erat pretium lacinia. Cras et mattis arcu, in suscipit ligula. Phasellus luctus at ipsum fringilla faucibus. Vivamus porta volutpat diam, et ornare elit efficitur quis. Nullam porttitor viverra sollicitudin. Phasellus cursus, odio eget venenatis elementum, ante orci sagittis justo, ut venenatis tortor diam ac diam. Pellentesque sit amet fringilla metus. Sed eleifend congue felis vitae lacinia. Cras blandit est et mi malesuada varius et ut sem. Praesent quis sollicitudin ipsum. Suspendisse volutpat sollicitudin arcu, vitae dictum quam luctus a. Cras in viverra tellus, vel elementum nibh.\n\n",
+      "id": "20222"
+    },
+    {
+      "tarifIsmi": "bir diğer diğer yemek",
+      "malzemeler": [
+        "dasasd",
+        "sdfsdf",
+        "sdasd",
+        "sfdsfd"
+      ],
+      "hazirlanisMuddeti": "40 dakika",
+      "yapilisi": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "id": "58228"
+    }
+  ]
+}

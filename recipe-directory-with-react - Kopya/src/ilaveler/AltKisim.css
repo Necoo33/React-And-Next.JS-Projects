@@ -1,0 +1,17 @@
+.altKisim{
+    position: relative;
+    height: 10vh;
+    width: 100%;
+    display: block;
+    background-color: navy;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    translate: 0 400px;
+}
+
+.altKisim p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
