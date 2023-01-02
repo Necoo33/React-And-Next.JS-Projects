@@ -1,0 +1,55 @@
+.allButtons{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.upperbuttons, .ddMenuButtons, .ddListButton{
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    border: none;
+    width: 9em;
+    height: 3em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.upperbuttons:hover{
+    scale: 1.1;
+}
+
+.ddMenuButtons:hover{
+    scale: 1.1;
+} 
+
+.ddListButton:hover{
+    scale: 1.1;
+}
+
+.ddMenu{
+    position: relative;
+}
+
+.ddMenuButtons{
+    display: block;
+}
+
+.ddList{
+    position: absolute;
+    transition: 0.3s;
+    transform-origin: top;
+    scale: 0;
+}
+
+.ddListTwo{
+    position: absolute;
+    left: 100%;
+    translate: 0 -55px;
+    transition: 0.3s;
+    transform-origin: top;
+}
+
+.ddListButton{
+    display: block;
+}
