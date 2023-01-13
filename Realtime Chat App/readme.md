@@ -4,5 +4,7 @@ https://let-s-some-chat.firebaseapp.com
 
 test accounts: 
 
-email: user1/2/3/4@gmail.com
-password: 123456
+user1@gmail.com - 123456
+user2@gmail.com - 123456
+user3@gmail.com - 123456
+user4@gmail.com - 123456
