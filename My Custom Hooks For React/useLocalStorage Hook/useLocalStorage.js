@@ -37,5 +37,5 @@ export function useLocalStorage(dataWhichAdd, dataWhichGet, data = null, removeI
 // 3 - when you remove any data: let { item: sdaasad } = useLocalStorage(null, "local storage data", null, true); 
 // when this saved that data will be deleted immediately 
 
-// 3 - when you want to clear local storage:  let { clearStorage } = useLocalStorage(null, "sfdsdsda"); 
+// 4 - when you want to clear local storage:  let { clearStorage } = useLocalStorage(null, "sfdsdsda"); 
 // and invoke that function.
