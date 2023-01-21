@@ -42,14 +42,6 @@ export function useLocalStorage(dataWhichAdd, dataWhichGet, data = null, removeI
             return otherAnotherBlaBla;
         }
     }, [removeItem, otherBlaBlaBla]);
-
-    /*if(removeItemOrNot){
-        data = null;
-    
-        useEffect(function(){
-            localStorage.removeItem(dataWhichGet);
-        }, [dataWhichGet, data]);
-    }*/
     
     function clearStorage(){
         localStorage.clear();
