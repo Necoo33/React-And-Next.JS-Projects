@@ -61,6 +61,8 @@ export function useLocalStorage(dataWhichAdd, dataWhichGet, data = null, removeI
 
 // Sample invokes:
 
+// for each actions you should invoke the below samples seperately.
+
 // 1 - when you add data: let { item } = useLocalStorage("local storage data", null, data);
 
 // 2 - when you get data: let { item: getItem } = useLocalStorage(null, "local storage data");
