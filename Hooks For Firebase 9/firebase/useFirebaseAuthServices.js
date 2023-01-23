@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, signInWithEmailAndPassword, signOut/*, updateProfile*/ } from "firebase/auth";
 import { useAuthContext } from "./useAuthContext";
 
 // for using them, you should destructure only which you want and pass the infos which written on function's parameter.
@@ -10,7 +10,7 @@ export function useFirebaseAuthServices(){
     let [errorLogout, setErrorLogout] = useState(null);
     let { dispatch } = useAuthContext();
 
-    async function register(email, password){
+    async function register(email, password/*, displayName*/){
         setErrorRegister(null);
 
         await createUserWithEmailAndPassword(getAuth(), email, password).then(function(parameter){
@@ -19,6 +19,14 @@ export function useFirebaseAuthServices(){
             setErrorRegister(error.message);
         });
 
+        /*
+        await updateProfile(getAuth().currentUser, {displayName: displayName}).then(function(parameter){
+            console.log(getAuth().currentUser);
+        }).catch(function(error){
+            setErrorRegister(error.message);
+        });
+            
+        */
     }
 
     async function login(email, password){
