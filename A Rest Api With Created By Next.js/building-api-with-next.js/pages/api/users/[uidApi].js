@@ -101,7 +101,8 @@ fire that function with useEffect hook and bind ".then()" method for setting som
 For PUT Method:
 
 You can use this function to put user. The first argument is actual value of "req.query.(idOfYourPage)".
-Second argument is the object which defines the changing properties and new values. 
+Second argument is the object which defines the changing properties and new values. It should contain only
+properties which you want to change.
 
 async function putTheUser(dynamicRoute, propertyAndValueObject){
   let response = await fetch(`/api/users/${dynamicRoute}`, { method: "PUT", headers: { "Content-Type": "application/json"}, body: JSON.stringify(propertyAndValueObject)});
