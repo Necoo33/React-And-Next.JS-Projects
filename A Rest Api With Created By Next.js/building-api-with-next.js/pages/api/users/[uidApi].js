@@ -13,7 +13,7 @@ export default function handler(req, res){
         let actualData = JSON.parse(readTheDatabase);
         
         // you can change the route of that api with changing the ".username" property.
-        // for example, if you compare the uidApi variable with ".email" or "telephone" 
+        // for example, if you compare the uidApi variable with ".email" or ".telephone" 
         // property the new routes are will be that, for example you should write:
         // "/api/users/user2@gmail.com" instead writing "/api/users/user2" for fetching
         // the individual user2 data. If you do that you should change the other
