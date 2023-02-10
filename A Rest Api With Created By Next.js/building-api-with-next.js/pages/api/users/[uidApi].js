@@ -46,19 +46,19 @@ export default function handler(req, res){
         if(typeof email !== "undefined"){
             findTheExactUser.email = email;
         } else if(typeof email === "undefined"){
-            email = findTheExactUser.password;
+            email = findTheExactUser.email;
         }
 
         if(typeof telephone !== "undefined"){
             findTheExactUser.telephone = telephone;
         } else if(typeof telephone === "undefined"){
-            telephone = findTheExactUser.password;
+            telephone = findTheExactUser.telephone;
         }
 
         if(typeof id !== "undefined"){
             findTheExactUser.id = id;
         } else if(typeof id === "undefined"){
-            id = findTheExactUser.password;
+            id = findTheExactUser.id;
         }
 
         require("fs").writeFileSync(path.join("./data/users.json"), JSON.stringify(actualData));
