@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <div style={ { backgroundColor: "#2d2d2d" } }>
-      <div className='navbar-container' style={ { margin: "0 3vw" } }>
+      <div className='navbar-container'>
           <div className='logo'>
               <Link href="/" className="logo-string">Bla Bla Logo</Link>
           </div>
@@ -37,7 +37,8 @@ export default function Navbar() {
   display: flex;
   place-content: space-between;
   align-items: center;
-  padding: 2em 0;
+  margin: 0 3vw;
+  padding: 1.5em 0;
   border-bottom: 5px solid white;
   background-color: #2d2d2d;
 }
@@ -113,6 +114,22 @@ export default function Navbar() {
 .ddlist-button:hover{
   background-color: black;
   color: white;
+}
+
+@media screen and (max-width: 768px){
+  .navbar-container{
+    flex-direction: column;
+    padding: 0.75em 0;
+  }
+
+  .logo{
+    margin-bottom: 1em;
+  }
+
+  .navbar-buttons{
+    border-top: 5px solid white;
+    padding: 0.75em 0;
+  }
 }
 
 */
