@@ -8,20 +8,20 @@ export default function Navbar() {
     <div style={ { backgroundColor: "#2d2d2d" } }>
       <div className='navbar-container' style={ { margin: "0 3vw" } }>
           <div className='logo'>
-              <Link href="/" className="logo-string">Necdet'in Deposu</Link>
+              <Link href="/" className="logo-string">Bla Bla Logo</Link>
           </div>
 
           <div className='navbar-buttons'>
-              <Link className='link-buttons' href="/munasebet">Münasebet</Link>
-              <Link className='link-buttons' href="/keylogger">Keylogger</Link>
+              <Link className='link-buttons' href="/munasebet">button</Link>
+              <Link className='link-buttons' href="/keylogger">button</Link>
               
               <div className="ddmenu">
-                <Link href="#" className="ddmenu-buttons" onMouseEnter={() => setOpenMenu(true)} onMouseLeave={() => setOpenMenu(false)}>Necdet'e Has</Link>
+                <Link href="#" className="ddmenu-buttons" onMouseEnter={() => setOpenMenu(true)} onMouseLeave={() => setOpenMenu(false)}>Dropdown Menu</Link>
 
                 <div className="ddlist" style= { { scale: openMenu ? "1" : "0" } } onMouseEnter={() => setOpenMenu(true)} onMouseLeave={() => setOpenMenu(false)}>
-                    <Link href="/muntehabat" className="ddlist-button">Müntehabat</Link>
-                    <Link href="/siirlerim" className="ddlist-button">Şiirlerim</Link>
-                    <Link href="/ozlusozler" className="ddlist-button">Özlü Söz Ekle</Link>
+                    <Link href="/muntehabat" className="ddlist-button">Button</Link>
+                    <Link href="/siirlerim" className="ddlist-button">Button</Link>
+                    <Link href="/ozlusozler" className="ddlist-button">Button</Link>
                 </div>
               </div>
           </div>
