@@ -16,7 +16,7 @@ export default function Navbar() {
               <Link className='link-buttons' href="/keylogger">button</Link>
               
               <div className="ddmenu">
-                <Link href="#" className="ddmenu-buttons" onMouseEnter={() => setOpenMenu(true)} onMouseLeave={() => setOpenMenu(false)} onPointerUp={() => openMenu ? setOpenMenu(false) : setOpenMenu(true)}>Dropdown Menu</Link>
+                <Link href="#" className="ddmenu-buttons" onMouseEnter={() => setOpenMenu(true)} onMouseLeave={() => setOpenMenu(false)} onPointerUp={openMenu ? () => setOpenMenu(false) : () => setOpenMenu(true)}>Dropdown Menu</Link>
 
                 <div className="ddlist" style= { { scale: openMenu ? "1" : "0" } } onMouseEnter={() => setOpenMenu(true)} onMouseLeave={() => setOpenMenu(false)}>
                     <Link href="/muntehabat" className="ddlist-button">Button</Link>
