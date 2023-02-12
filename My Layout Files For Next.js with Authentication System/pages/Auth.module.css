@@ -1,0 +1,93 @@
+.authPageContainer{
+    display: flex;
+    place-content: center;
+}
+
+.authForms{
+    background-color: white;
+    margin: 50px auto;
+    max-width: 60vw;
+    padding: 2em;
+    border-radius: 20px;
+}
+
+.authForms h2{
+    margin: 30px 0;
+}
+
+.authForms label{
+    display: block;
+}
+
+.formInputsGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.formInputsGrid label{
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 10px;
+}
+
+.formInputsGrid label:last-of-type{
+    display: flex;
+    place-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.formInputsGrid label:last-of-type span{
+    width: 30em;
+}
+
+.formInputsGrid label span{
+    grid-column: 1;
+}
+
+.checkBox{
+    width: 2em;
+    height: 2em;
+    border-radius: 100px;
+    appearance: none;
+    border: 5px solid black;
+}
+
+.checkBox:checked{
+    background-color: #2d2d2d;
+    border-color: white;
+}
+
+.submitButtonContainer{
+    display: flex;
+    place-content: center;
+    padding: 2em;
+}
+
+@media screen and (max-width: 768px){
+    .authForms{
+        width: 90vw;
+    }
+
+    .formInputsGrid label:last-of-type span{
+        width: 20em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .authForms{
+        width: 95vw;
+    }
+
+    .formInputsGrid label:last-of-type span{
+        width: 15em;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .formInputsGrid label:last-of-type span{
+        width: 10em;
+    }
+}
