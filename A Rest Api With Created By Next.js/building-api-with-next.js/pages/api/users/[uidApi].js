@@ -31,33 +31,33 @@ export default function handler(req, res){
 
         let findTheExactUser = actualData.find(param => param.username === uidApi);
 
-        if(typeof username !== "undefined"){
+        if(username){
             findTheExactUser.username = username;
-        } else if(typeof username === "undefined"){
+        } else if(!username){
             username = findTheExactUser.username;
         }
 
-        if(typeof password !== "undefined"){
+        if(password){
             findTheExactUser.password = password;
-        } else if(typeof password === "undefined"){
+        } else if(!password){
             password = findTheExactUser.password;
         }
 
-        if(typeof email !== "undefined"){
+        if(email){
             findTheExactUser.email = email;
-        } else if(typeof email === "undefined"){
+        } else if(!email){
             email = findTheExactUser.email;
         }
-
-        if(typeof telephone !== "undefined"){
+        
+        if(telephone){
             findTheExactUser.telephone = telephone;
-        } else if(typeof telephone === "undefined"){
+        } else if(!telephone){
             telephone = findTheExactUser.telephone;
         }
 
-        if(typeof id !== "undefined"){
+        if(!id){
             findTheExactUser.id = id;
-        } else if(typeof id === "undefined"){
+        } else if(id){
             id = findTheExactUser.id;
         }
 
